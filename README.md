@@ -69,7 +69,9 @@ Simply drop in this plugin, configure it once, and you’re done — every file 
 ## 🧑‍💻 Author
 
 **Amod Joshi**
+
 amodjjoshi@gmail.com
+
 http://www.geek-bench.com
 
 ## 📄 License
