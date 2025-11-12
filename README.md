@@ -5,7 +5,7 @@
 With a simple drag-and-drop configuration, you can browse and upload files to any OCI Object Storage Bucket of your choice, making file management within APEX applications faster, cleaner, and fully cloud-integrated.
 
 ## Demo
-| ![Upload Demo](./Media/Demo.gif) |
+![Upload Demo](./Media/Demo.gif)
 
 
 ## 🚀 Features
@@ -23,20 +23,20 @@ With a simple drag-and-drop configuration, you can browse and upload files to an
 
    * Import the plugin file (`APEX_Object_Storage_Upload_Plugin.sql`) into your APEX application.
    
-     | ![Setup3](./Media/Setup3.png) |
+     ![Setup3](./Media/Setup3.png)
 
 2. **Add to Your Process Flow**
 
    * In your APEX page, create a new *Process* and select **Object Storage Upload Plugin** from the list.
    
-     | ![Setup4](./Media/Setup4.png) |
+     ![Setup4](./Media/Setup4.png)
 
 3. **Configure Settings**
 
    * Provide OCI connection details such as User OCID, Tenancy OCID, Private Key, Fingerprint, Region, Namespace, Bucket Name, and the reference to the file to be uploaded.
    * Link it to your File Browse item or upload component.
    
-     | ![Setup5](./Media/Setup5.png) |
+     ![Setup5](./Media/Setup5.png)
 
 4. **Run and Upload!**
 
