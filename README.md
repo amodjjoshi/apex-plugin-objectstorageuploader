@@ -22,17 +22,20 @@ With a simple drag-and-drop configuration, you can browse and upload files to an
 1. **Install the Plugin**
 
    * Import the plugin file (`APEX_Object_Storage_Upload_Plugin.sql`) into your APEX application.
+   
      | ![Setup3](./Media/Setup3.png) |
 
 2. **Add to Your Process Flow**
 
    * In your APEX page, create a new *Process* and select **Object Storage Upload Plugin** from the list.
+   
      | ![Setup4](./Media/Setup4.png) |
 
 3. **Configure Settings**
 
    * Provide OCI connection details such as User OCID, Tenancy OCID, Private Key, Fingerprint, Region, Namespace, Bucket Name, and the reference to the file to be uploaded.
    * Link it to your File Browse item or upload component.
+   
      | ![Setup5](./Media/Setup5.png) |
 
 4. **Run and Upload!**
