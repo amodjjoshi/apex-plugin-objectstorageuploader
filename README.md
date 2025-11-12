@@ -40,7 +40,7 @@ With a simple drag-and-drop configuration, you can browse and upload files to an
      ![Setup2](./Media/Setup2.png)
    
    * Provide OCI connection details such as User OCID, Tenancy OCID, Private Key, Fingerprint, Region, Namespace, Bucket Name to the Plugin Parameters.
-   * Link the Filename parameter to your File Upload component.
+   * Link the Filename parameter to your File Upload component ( for example **&P1_FILE.** )
    
      ![Setup5](./Media/Setup5.png)
 
