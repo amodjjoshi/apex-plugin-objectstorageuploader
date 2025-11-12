@@ -33,8 +33,14 @@ With a simple drag-and-drop configuration, you can browse and upload files to an
 
 3. **Configure Settings**
 
-   * Provide OCI connection details such as User OCID, Tenancy OCID, Private Key, Fingerprint, Region, Namespace, Bucket Name, and the reference to the file to be uploaded.
-   * Link it to your File Browse item or upload component.
+   * Generate API Key Pair in your OCI tenancy and obtain the details.
+     
+     ![Setup1](./Media/Setup1.png)
+
+     ![Setup2](./Media/Setup2.png)
+   
+   * Provide OCI connection details such as User OCID, Tenancy OCID, Private Key, Fingerprint, Region, Namespace, Bucket Name to the Plugin Parameters.
+   * Link the Filename parameter to your File Upload component.
    
      ![Setup5](./Media/Setup5.png)
 
