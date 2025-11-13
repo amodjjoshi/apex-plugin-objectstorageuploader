@@ -62,16 +62,24 @@ Simply drop in this plugin, configure it once, and you’re done — every file 
 
 ## 📦 Installation
 
-1. Download the latest release from the [Releases](./releases) section.
+1. Download the latest release from the [Plugin](./Plugin) section.
 2. Import the plugin into your APEX workspace using **Shared Components → Plug-ins → Import**.
 3. Create a File Upload component and a Button to submit the page.
    
-   ![Setup4](./Media/Setup6.png)
+   ![Setup6](./Media/Setup6.png)
    
-   ![Setup4](./Media/Setup7.png)
+   ![Setup7](./Media/Setup7.png)
    
-4. Configure the Plugin under Processes section as shown above.
-5. Run the application.
+4. Create a new process under execution point 'Processing', select the type as Object Storage Upload Plugin and configure the settings as shown in the previous sections.
+
+   ![Setup8](./Media/Setup8.png)
+   
+6. Run the application.
+
+## 📦 Sample Application
+
+1. Download the sample application from the [Sample Application](./Sample_Application) section.
+
 
 ## 🧑‍💻 Author
 
