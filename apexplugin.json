@@ -17,6 +17,7 @@
   },
   "oracle" : {
     "apex" : {
+	  "versions" : ["23.0.0.0", "21.0.0.0"]
       "plugin" : {
         "internalName" : "AJ_OBJECT_STORAGE_UPLOAD",
         "type" : "Process",
