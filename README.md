@@ -65,6 +65,8 @@ Simply drop in this plugin, configure it once, and you’re done — every file 
 1. Download the latest release from the [Releases](./releases) section.
 2. Import the plugin into your APEX workspace using **Shared Components → Plug-ins → Import**.
 3. Create a File Upload component and a Button to submit the page.
+   ![Setup4](./Media/Setup6.png)
+   ![Setup4](./Media/Setup7.png)
 5. Configure the Plugin under Processes section as shown above.
 6. Run the application.
 
