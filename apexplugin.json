@@ -16,8 +16,9 @@
     "url" : "https://github.com/amodjjoshi/apex-plugin-objectstorageuploader"
   },
   "oracle" : {
+	"versions" : ["23.0.0.0", "21.0.0.0"],
     "apex" : {
-	  "versions" : ["23.0.0.0", "21.0.0.0"]
+	  "versions" : ["24.2.10"],
       "plugin" : {
         "internalName" : "AJ_OBJECT_STORAGE_UPLOAD",
         "type" : "Process",
