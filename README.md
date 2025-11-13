@@ -12,7 +12,7 @@ With a simple drag-and-drop configuration, you can browse and upload files to an
 
 * 🔹 **No Code Required** – Upload to OCI Object Storage without writing PL/SQL or REST calls.
 * 🔹 **Native APEX Experience** – Works seamlessly with Oracle APEX process flows.
-* 🔹 **Customizable Bucket Targeting** – Choose any Object Storage bucket dynamically or statically.
+* 🔹 **Customizable Bucket Targeting** – Use your choice of target Object Storage bucket.
 * 🔹 **Supports All File Types** – Upload any document, image, or binary file.
 * 🔹 **OCI Authentication** – Inherits the standard OCI authentication method.
 * 🔹 **Developer Friendly** – Simple to integrate, easy to maintain, and fully portable.
