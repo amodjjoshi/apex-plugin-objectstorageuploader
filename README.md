@@ -1,6 +1,6 @@
-# 🗂️ APEX Object Storage Upload Plugin
+# 🗂️ APEX Object Storage Uploader Plugin
 
-**APEX Object Storage Upload Plugin** is an **Oracle APEX Process Plugin** that allows developers to **upload files directly to Oracle Cloud Infrastructure (OCI) Object Storage** — without writing a single line of code.
+**APEX Object Storage Uploader Plugin** is an **Oracle APEX Process Plugin** that allows developers to **upload files directly to Oracle Cloud Infrastructure (OCI) Object Storage** — without writing a single line of code.
 
 With a simple drag-and-drop configuration, you can browse and upload files to any OCI Object Storage Bucket of your choice, making file management within APEX applications faster, cleaner, and fully cloud-integrated.
 
