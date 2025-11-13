@@ -78,7 +78,7 @@ Simply drop in this plugin, configure it once, and you’re done — every file 
 
 ## 📦 Sample Application
 
-1. Download the sample application from the [Sample Application](./Sample_Application) section.
+* Download the sample application from the [Sample Application](./Sample_Application) section.
 
 
 ## 🧑‍💻 Author
