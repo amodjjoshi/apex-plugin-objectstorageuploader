@@ -1,3 +1,7 @@
+--------------------------------------------------------------------------------
+-- Created by Amod Joshi
+-- amodjjoshi@gmail.com
+--------------------------------------------------------------------------------
 prompt --application/set_environment
 set define off verify off feedback off
 whenever sqlerror exit sql.sqlcode rollback
@@ -33,7 +37,7 @@ prompt APPLICATION 104 - Object Storage Plugin
 -- Application Export:
 --   Application:     104
 --   Name:            Object Storage Plugin
---   Date and Time:   03:20 Wednesday November 12, 2025
+--   Date and Time:   00:34 Thursday November 13, 2025
 --   Exported By:     AJOSHI
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -97,6 +101,7 @@ wwv_imp_workspace.create_flow(
 ,p_no_proxy_domains=>nvl(wwv_flow_application_install.get_no_proxy_domains,'')
 ,p_flow_version=>'Release 1.0'
 ,p_flow_status=>'AVAILABLE_W_EDIT_LINK'
+,p_flow_unavailable_text=>'This application is currently unavailable at this time.'
 ,p_exact_substitutions_only=>'Y'
 ,p_browser_cache=>'N'
 ,p_browser_frame=>'D'
@@ -107,12 +112,15 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_value_01=>'Object Storage Plugin'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>6
-,p_version_scn=>39339733483800
+,p_version_scn=>39339858777453
 ,p_print_server_type=>'NATIVE'
 ,p_file_storage=>'DB'
 ,p_is_pwa=>'Y'
 ,p_pwa_is_installable=>'N'
 ,p_pwa_is_push_enabled=>'N'
+,p_copyright_banner=>wwv_flow_string.join(wwv_flow_t_varchar2(
+'Created by Amod Joshi',
+'amodjjoshi@gmail.com'))
 );
 end;
 /
@@ -1422,7 +1430,9 @@ end;
 /
 prompt --application/deployment/definition
 begin
-null;
+wwv_flow_imp_shared.create_install(
+ p_id=>wwv_flow_imp.id(34873932715390903)
+);
 end;
 /
 prompt --application/deployment/checks
