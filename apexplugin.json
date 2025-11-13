@@ -22,7 +22,7 @@
       "plugin" : {
         "internalName" : "AJ_OBJECT_STORAGE_UPLOAD",
         "type" : "Process",
-        "demo" : "https://github.com/amodjjoshi/apex-plugin-objectstorageuploader",
+        "demo" : "https://raw.githubusercontent.com/amodjjoshi/apex-plugin-objectstorageuploader/master/Media/Demo.gif",
         "previewImage" : "https://raw.githubusercontent.com/amodjjoshi/apex-plugin-objectstorageuploader/master/Media/Demo.gif"
       }
     }
