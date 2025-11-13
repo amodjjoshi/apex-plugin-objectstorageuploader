@@ -1,0 +1,28 @@
+{
+  "name" : "ObjectStorageUploader",
+  "version" : "1.0",
+  "description" : "APEX Object Storage Upload Plugin is an Oracle APEX Process Plugin that lets you browse any file and upload it to the OCI Object Storage Bucket of your choice without writing any code blocks.",
+  "keywords" : ["APEX", "Plugins", "Oracle", "Object Storage"],
+  "homepage" : "https://github.com/amodjjoshi/apex-plugin-objectstorageuploader",
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Amod Joshi",
+    "email" : "amodjjoshi@gmail.com",
+    "url" : "http://www.geek-bench.com"
+    },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/amodjjoshi/apex-plugin-objectstorageuploader"
+  },
+  "oracle" : {
+    "apex" : {
+      "plugin" : {
+        "internalName" : "AJ_OBJECT_STORAGE_UPLOAD",
+        "type" : "Process",
+        "demo" : "",
+        "previewImage" : "https://raw.githubusercontent.com/amodjjoshi/apex-plugin-objectstorageuploader/master/Media/Demo.gif"
+      }
+    }
+  }
+}
